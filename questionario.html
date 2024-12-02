@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="src/img/ico/prancheta.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +15,7 @@
 
         h1,
         h2 {
-            color: #333;
+            color: #ffffff;
         }
 
         .question {
@@ -27,8 +29,8 @@
         .result {
             margin-top: 20px;
             padding: 15px;
-            background-color: #f0f0f0;
-            border: 1px solid #ccc;
+            background-color: #0c9a2f;
+            border: 1px solid #0cd33e;
             display: none;
         }
     </style>
@@ -36,6 +38,11 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Voltar ao índice</a></li>
+        </ul>
+    </nav>
     <h1>Avaliação de Gestão de Projetos</h1>
     <p>Responda as questões abaixo e clique em "Finalizar" para verificar sua pontuação.</p>
 
@@ -168,6 +175,10 @@
             resultDiv.textContent = `Você acertou ${score} de ${Object.keys(correctAnswers).length} questões.`;
         }
     </script>
+    <footer>
+        <p>© 2024 - Gabriel Dias<br>
+            Técnico de Informática e Desenvolvedor</p>
+    </footer>
 </body>
 
 </html>

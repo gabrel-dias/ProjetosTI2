@@ -1,15 +1,15 @@
-h2{
+h2 {
   text-transform: uppercase;
 }
 
-#demandas li{
-line-height: 2.5rem;
-text-transform: uppercase;
+#demandas li {
+  line-height: 2.5rem;
+  text-transform: uppercase;
 }
 
 /* currículo */
 body {
-  background-color: #080606e7;
+  background-color: #080606da;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -65,6 +65,7 @@ footer a {
 footer p {
   margin-right: 2px;
   margin-top: 0px;
+  text-align: center;
 }
 
 .container {
@@ -72,7 +73,7 @@ footer p {
 }
 
 nav a:hover {
-  color: #0004ff;
+  color: #8800ff;
 }
 
 /* fotos dos projetos */
@@ -82,6 +83,7 @@ nav a:hover {
   gap: 30px;
   place-items: center;
 }
+
 .grid img {
   max-width: 500px;
   max-height: 400px;
@@ -94,7 +96,7 @@ nav a:hover {
   height: 56px;
 }
 
-section ul{
+section ul {
   text-align: left;
   padding-left: 0;
   margin-left: 20px;
